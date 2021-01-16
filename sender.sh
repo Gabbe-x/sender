@@ -9,8 +9,11 @@ COUNT=15
 
 while [ $COUNT -gt 0 ]
 do
-SHELLCOMMAND=$(echo -e "code client send-payment -sender $SENDER -reciver $RECIVER -fee $FEE -amount $AMOUNT")
-$SHELCOMMAND
+coda client send-payment \
+-sender $SENDER
+-reciver $RECIVER
+-fee $FEE
+-amount $AMOUNT
 sleep 15
 ((COUNT--))
 done
