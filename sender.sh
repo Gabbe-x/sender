@@ -12,8 +12,8 @@ do
 coda client send-payment \
 -sender B62qrmZqGMetG6JZj8dFnoagGhX298CjZ42Jdc8YKGTmvi4YHUYBb1p \
 -receiver B62qjUn8PNtvKHMg7wAwD3o2CBNHE7gm4ZX2H8A8jqkbuhKnGioCM7T \
--fee 0.1 \
--amount 2
+-fee 310 \
+-amount 0.01
 sleep 15
 ((COUNT--))
 done
