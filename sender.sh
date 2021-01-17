@@ -14,6 +14,6 @@ coda client send-payment \
 -receiver $RECIVER \
 -fee $FEE \
 -amount 0.01
-sleep 15
+sleep 30
 ((COUNT--))
 done
