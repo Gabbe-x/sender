@@ -15,5 +15,5 @@ coda client send-payment \
 -fee $FEE \
 -amount 0.01
 sleep 30
-((COUNT--))1
+((COUNT--))
 done
